@@ -7,7 +7,7 @@ import InfoCard from "@/components/InfoCard";
 
 function Search({ searchResults }) {
   const router = useRouter();
-  console.log(searchResults);
+  // console.log(searchResults);
   const { location, startDate, endDate, noOfGuest } = router.query;
 
   const startingDate = format(new Date(startDate), "dd MMMM yy");
@@ -35,9 +35,8 @@ function Search({ searchResults }) {
             <p className="button">Rooms and Beds</p>
             <p className="button">More filters</p>
           </div>
-        </section>
-      </main>
-      <div>
+
+          <div>
         {searchResults?.map(
           ({ photos, location, pricing, stars, address, name, numberOfGuests, description, url }) => (
             <InfoCard
@@ -54,6 +53,9 @@ function Search({ searchResults }) {
           )
         )}
       </div>
+        </section>
+      </main>
+      
       <Footer />
     </div>
   );
