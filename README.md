@@ -12,7 +12,7 @@ yarn dev
 pnpm dev
 ```
 
-Open [public/Screenshot 2023-09-09 223359.png](public/Screenshot 2023-09-09 223359.png) with your browser to see the result.
+![image]([https://user-images.githubusercontent.com/23248726/220005380-ede4fb14-0b8d-4582-a063-3cc4beeccfb7.png](https://github.com/jhoncarter7/airbnb/blob/cb4b62597dba2e10a845e198ae244534db792bb5/public/Screenshot%202023-09-09%20223359.png)
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
